@@ -1,0 +1,16 @@
+.cart-link{
+  position: relative;
+}
+
+.cart-count {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-40%,-50%);
+  font-size: 1.2rem;
+  color: red;
+  background-color: white;
+  border-radius: 50%;
+  width: 25px;
+  text-align: center;
+}
