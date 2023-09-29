@@ -32,7 +32,7 @@ export const cartReducer = (state = cartInitialState, action) => {
         return [...state];
         break;
       case CLEAR_CART:
-        return state.splice(0,state.length);
+        return [];
         break;
   }
 };
